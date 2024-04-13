@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible", content = 'IE-Edge'>
+        <title>Proyecto TypeScript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:,">
+        <script type = "module" src = "./scripts/main.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+
+    <body>
+        <h1>Proyecto TypeScript</h1>
+        <p>Votada por ustedes como la mejor serie...</p>
+        <table class="table" id="Serie"></table>
+        
+
+        <h2>Lista de series</h2>  
+        <input type="text" class = "from-control" id="texto-busqueda" placeholder="filtrar por nombre">
+        <button type="button" id="boton-filtro" class="btn btn-success">Aplicar</button>
+        <table class= "table" id= "SerieX">
+            <thead class="thead-dark">
+                <tr>
+                    
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Canal</th>
+                    <th>Temporadas</th>
+                </tr>
+
+                
+
+            </thead>
+            <tfoot class="thead-dark" id="avg"></tfoot>
+       
+
+
+        </table> 
+    </body>
+</html>
+
+

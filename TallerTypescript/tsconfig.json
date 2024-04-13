@@ -1,0 +1,16 @@
+//"ignoreDeprecations": "5.0"
+//EN EL TUTORIAL, PIDEN EL TARGET ES3, PERO PUES SOLO FUNCIONÓ CON EL 5
+{
+
+"compilerOptions": {
+
+    "target": "es5",
+    "module": "es6",
+    "outDir":"./scripts",
+    "rootDir":"./",
+    "strict": true,
+    "alwaysStrict": true
+    
+}
+
+}
